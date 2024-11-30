@@ -1,6 +1,6 @@
-## ![Logo](https://raw.githubusercontent.com/themronion/Maui.GoogleMaps/maui/lib/Maui.GoogleMaps/logo.png) Maui.GoogleMaps 
+## ![Logo](https://raw.githubusercontent.com/jpsheehan/Maui.GoogleMaps/maui/lib/Maui.GoogleMaps/logo.png) Maui.GoogleMaps 
 
-[![NuGet](https://img.shields.io/nuget/v/Onion.Maui.GoogleMaps.svg?label=NuGet)](https://www.nuget.org/packages/Onion.Maui.GoogleMaps/) ![](https://img.shields.io/nuget/dt/Onion.Maui.GoogleMaps.svg)
+[![NuGet](https://img.shields.io/nuget/v/Sheehan.Maui.GoogleMaps.svg?label=NuGet)](https://www.nuget.org/packages/Sheehan.Maui.GoogleMaps/) ![](https://img.shields.io/nuget/dt/Sheehan.Maui.GoogleMaps.svg)
 
 Maps library for MAUI that uses Google maps on both mobile platforms - Android and iOS.
 
@@ -17,7 +17,7 @@ Usage is almost the same as [Xamarin.Forms.GoogleMaps - github](https://github.c
 
 ## Setup
 * Target .NET 8 for best experience
-* Install into your MAUI project by downloading the library from nuget: [![NuGet](https://img.shields.io/nuget/v/Onion.Maui.GoogleMaps.svg?label=NuGet)](https://www.nuget.org/packages/Onion.Maui.GoogleMaps/)
+* Install into your MAUI project by downloading the library from nuget: [![NuGet](https://img.shields.io/nuget/v/Sheehan.Maui.GoogleMaps.svg?label=NuGet)](https://www.nuget.org/packages/Sheehan.Maui.GoogleMaps/)
 * Finish the [Google Cloud Console setup](https://developers.google.com/maps/get-started#create-project)
 * Get your API Keys from Google, then in Platforms/Android: 
 
@@ -56,13 +56,13 @@ public static MauiApp CreateMauiApp()
 }
 ```
 
-If you need clustering, install [![NuGet](https://img.shields.io/nuget/v/Onion.Maui.GoogleMaps.svg?label=Onion.Maui.GoogleMaps.Clustering)](https://www.nuget.org/packages/Onion.Maui.GoogleMaps.Clustering/) and add this line:
+If you need clustering, install [![NuGet](https://img.shields.io/nuget/v/Sheehan.Maui.GoogleMaps.svg?label=Sheehan.Maui.GoogleMaps.Clustering)](https://www.nuget.org/packages/Sheehan.Maui.GoogleMaps.Clustering/) and add this line:
 ```csharp
 builder.UseGoogleMapsClustering();
 ```
 For more information on clustering and regular map usage check out sample app:
 
-* [MauiGoogleMapSample](https://github.com/themronion/Maui.GoogleMaps/tree/maui/sample/MauiGoogleMapSample)
+* [MauiGoogleMapSample](https://github.com/jpsheehan/Maui.GoogleMaps/tree/maui/sample/MauiGoogleMapSample)
 
 ## Contribution
 

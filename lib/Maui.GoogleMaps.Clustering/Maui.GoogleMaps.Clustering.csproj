@@ -9,22 +9,22 @@
 	  <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
 	  <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	  <PackageId>Onion.Maui.GoogleMaps.Clustering</PackageId>
+	  <PackageId>Sheehan.Maui.GoogleMaps.Clustering</PackageId>
 	  <Title>Maui.GoogleMaps.Clustering</Title>
-	  <PackageVersion>6.0.1</PackageVersion>
+	  <PackageVersion>6.0.2</PackageVersion>
 	  <PackageReleaseNotes>
-# 6.0.1
-- Updated google maps ios sdk to 9.1.1
+# 6.0.2
+- Fix iOS crash caused by null reference exception
 	  </PackageReleaseNotes>
-	  <Authors>themronion</Authors>
+	  <Authors>themronion,jpsheehan</Authors>
 	  <Copyright>Copyright 2022-2024</Copyright>
 	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <PackageIcon>logo.png</PackageIcon>
-	  <RepositoryUrl>https://github.com/themronion/Maui.GoogleMaps</RepositoryUrl>
-	  <PackageProjectUrl>https://github.com/themronion/Maui.GoogleMaps</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/jpsheehan/Maui.GoogleMaps</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/jpsheehan/Maui.GoogleMaps</PackageProjectUrl>
 	  <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
-	  <Description>Helper library for Onion.Maui.GoogleMaps to support clustering</Description>
+	  <Description>Helper library for Sheehan.Maui.GoogleMaps to support clustering</Description>
 	  <PackageTags>maui maps mauimaps maui.maps mauigooglemaps maui.googlemaps google googlemap clustering</PackageTags>
   </PropertyGroup>
 

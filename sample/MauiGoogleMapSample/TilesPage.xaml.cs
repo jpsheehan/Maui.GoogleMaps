@@ -8,7 +8,7 @@ namespace MauiGoogleMapSample
         {
             InitializeComponent();
 #if ANDROID
-            Java.Lang.JavaSystem.SetProperty("http.agent", "Onion.Maui.GoogleMaps.Android");
+            Java.Lang.JavaSystem.SetProperty("http.agent", "Sheehan.Maui.GoogleMaps.Android");
 #endif
             TileLayer objTile  = null;
             Button currentDisable = buttonRemove;
